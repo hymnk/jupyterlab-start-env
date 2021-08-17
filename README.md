@@ -8,7 +8,8 @@ jupyterlab環境をpoetryでサクッと利用するためのリポジトリ
 # Usage
 
 jupyterlab 起動
-```poetry shell
+```
+poetry shell
 jupyter lab --port=8890 --allow-root --NotebookApp.token='' --no-browser >> jupyter.log 2>&1 &
 ```
 
